@@ -20,7 +20,6 @@ Jarvis is a Python-based voice assistant that performs various tasks through voi
 - Requests
 - OpenAI API
 - NewsAPI
--
 
 ## Setup Instructions
 
@@ -49,11 +48,11 @@ with sr.Microphone(device_index=3) as source:
 python main.py
 
 When prompted, say "Jarvis" to activate the assistant and then give commands like:
-“Open Google”
-“Play Invincible”
-“Tell me the news”
-“Who are you?”
-“Exit” or “Shutdown” to close
+- “Open Google”
+- “Play Invincible”
+- “Tell me the news”
+- “Who are you?”
+- “Exit” or “Shutdown” to close
 
 
 
